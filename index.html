@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>100 Promoções C&A e Casas Bahia</title>
+  <meta name="description" content="Confira promoções reais da C&A e Casas Bahia! Roupas, eletrônicos e muito mais com super descontos." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.seusite.com/promocoes" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Promoções Reais C&A e Casas Bahia" />
+  <meta property="og:description" content="Descontos em roupas, eletrônicos e muito mais. Válido por tempo limitado!" />
+  <meta property="og:image" content="https://www.seusite.com/imagem-promocao.jpg" />
+  <meta property="og:url" content="https://www.seusite.com/promocoes" />
+  <meta property="og:type" content="website" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #cc0000;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 1rem;
+      max-width: 1200px;
+      margin: auto;
+      position: relative;
+    }
+    h2 {
+      color: #cc0000;
+    }
+    .promo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .promo-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+    .promo-card:hover {
+      transform: translateY(-5px);
+    }
+    .promo-title {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .promo-price {
+      color: #cc0000;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .promo-validity {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    /* PROPAGANDAS */
+    .ads {
+      text-align: center;
+      background-color: #ffe9cc;
+      color: #333;
+      padding: 10px;
+      font-weight: bold;
+      border: 1px solid #ddd;
+      z-index: 999;
+    }
+    .ads-top {
+      width: 100%;
+      position: sticky;
+      top: 0;
+    }
+    .ads-bottom {
+      width: 100%;
+      margin-top: 2rem;
+    }
+    .ads-left, .ads-right {
+      position: fixed;
+      top: 120px;
+      width: 120px;
+      height: 600px;
+      background-color: #fff8e1;
+      border: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .ads-left {
+      left: 0;
+    }
+    .ads-right {
+      right: 0;
+    }
+
+    @media (max-width: 900px) {
+      .ads-left, .ads-right {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPO - PROPAGANDA -->
+  <div class="ads ads-top">🚀 <a href="https://victorxx.github.io/diadia02/">CONFERIR A OPORTUNIDADE!</a></div>
+
+  <header>
+    <h1>Promoções Reais da C&A e Casas Bahia</h1>
+  </header>
+
+  <!-- ESQUERDA - PROPAGANDA -->
+  <div class="ads ads-left">📢 <a href="https://victorxx.github.io/airbnbrandom01/">COMECE NO AIRBNB</a></div>
+
+  <main>
+    <section>
+      <h2>Ofertas C&A</h2>
+      <div id="cea-promos" class="promo-grid"></div>
+    </section>
+
+    <section>
+      <h2>Ofertas Casas Bahia</h2>
+      <div id="cbahia-promos" class="promo-grid"></div>
+    </section>
+  </main>
+
+  <!-- DIREITA - PROPAGANDA -->
+  <div class="ads ads-right">🛒 <a href="https://geocredibnkvitoria.com/">CRÉDITO PESSOAL</a></div>
+
+  <!-- RODAPÉ - PROPAGANDA -->
+  <div class="ads ads-bottom">🎯 <a href="https://victorxx.github.io/topicogithub01/randomizador.html">CONFERIR A OPORTUNIDADE</a></div>
+
+  <!-- JS separado -->
+  <script src="promocoes.js"></script>
+</body>
+</html>
